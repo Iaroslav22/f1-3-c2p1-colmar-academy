@@ -1,0 +1,276 @@
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.4;
+}
+
+.container{
+    max-width: 960px;
+  margin: 0 auto;
+    display: flex;
+}
+
+h2{
+    font-weight: bold;
+    color: darkslategray;
+}
+
+h4{
+    font-weight: bold;
+    color: darkslategray;
+}
+
+
+
+
+/* Company Hader */
+
+
+span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  color: black;
+    width: 100%;
+    height: 64px;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+    line-height: 32px;
+}
+
+nav img {
+  padding-left: 24px;
+    font-size: 32px;
+}
+
+nav ul {
+  margin-right: 24px;
+}
+
+nav li {
+  display: inline;
+  padding: 0 1rem;
+
+}
+    
+
+/* Main Part */
+
+.first-part{
+    display: flex;
+    background-color: lightgrey;
+   margin-bottom: 32px;
+}
+
+.slogan{
+    display: inline-flex;
+    align-items: center;
+}
+
+.block{
+ 
+    display: block;
+    padding-left: 24px;
+    align-items: center;
+}
+
+#button{
+    text-align: center;
+    color: white;
+    background-color: darkslategrey;
+    border: solid black 1px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.slogan img{
+    margin-top: 32px;
+    width: 60%;
+    margin-left: 24px;
+}
+
+/* Second part */
+
+.second-part{
+    display: flex;
+}
+
+.slogan-two{
+    display: block;
+    text-align: left;
+}
+
+.slogan-two img{
+    padding-top: 32px;
+    height: 300px;
+    margin-left: 24px;
+}
+
+.block-two{
+    display: block;
+    width: 60%;
+    margin-top: 16px;
+}
+
+.information{
+   padding-left: 24px;
+    width: 400px;
+    display: flex;
+    border: grey 1px solid;
+    align-items: center;
+}
+
+.information-grey{
+    padding-left: 24px;
+    display: flex;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+.text{
+    display: block;
+    width: 65%;
+}
+
+.information img{
+    width: 35%;
+    height: auto;
+}
+
+.information-grey img{
+     width: 35%;
+    height: auto;
+   
+}
+
+info-main{
+    width: 60%;
+    height: 32px;
+}
+
+/* Third Part */
+
+.third-part{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightgrey;
+    text-align: center;
+    
+   
+}
+
+.learn{
+     width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 72px;
+    margin-right: 72px;
+}
+
+.courses{
+    margin-bottom: 32px;
+    display: block;
+    flex-direction: column;
+    background-color: white;
+    margin-right: 16px;
+}
+
+.list{
+    display: block;
+    text-align: left;
+    margin-left: 16px;
+    width: 300px;
+   
+}
+
+
+
+
+.courses img{
+    height: auto;
+    width: 320px
+}
+
+
+
+   /* Last part */
+
+.last-part{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.exhibit{
+    display: block;
+    margin-right: 24px;
+    margin-top: 32px;
+}
+
+.exhibit video{
+    width: 60%;
+}
+
+.thesis{
+    display: flex;
+    
+}
+
+thesisgrey img{
+    margin-right:16px;
+    height: auto;
+    width:35%;
+}
+
+
+.block-three{
+    display: block;
+margin-top: 32px;
+
+}
+
+.thesisgrey{
+    background-color: lightgrey;
+    display: flex;
+    margin-bottom: 24px;
+    
+}
+
+.thesis img {
+    margin-right:16px;
+    height: auto;
+    width:35%;
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+}
+
+.rights{
+    margin-left: 24px;
+    margin-top: 16px;
+    padding-right: 450px;
+}
+
+.terms{
+    display: inline-flex;
+     margin-top: 16px;
+}
